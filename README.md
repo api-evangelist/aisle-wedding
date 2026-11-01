@@ -1,4 +1,4 @@
-# aisle-wedding
+# Aisle
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,143 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-aisle-wedding is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://aisle.wedding/
+Aisle provides a destination wedding venue marketplace and website builder, enabling couples to discover venues worldwide, estimate costs, and manage planning through an integrated platform. Users can browse venues, create wedding websites, collect RSVPs, and handle payments, with features like budgeting tools, checklists, and timeline planning. The service also offers AI assistance via ChatGPT and supports planners with customizable tools and real‑wedding showcases.
+
+**Areas:** Wedding · Planning · SaaS · Marketplace · API
+
+## Aisle on APIs.io
+
+Everything profiled for Aisle is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/aisle-wedding/](https://apis.io/providers/aisle-wedding/)** — or go straight to one of the APIs or properties below.
+
+### APIs (18)
+
+- [Aisle Dress codes API](https://apis.io/apis/aisle-wedding/aisle-wedding-dress-codes-api/) — Reusable event dress guidance.
+- [Aisle Events API](https://apis.io/apis/aisle-wedding/aisle-wedding-events-api/) — Wedding schedule and invitations.
+- [Aisle Guest access API](https://apis.io/apis/aisle-wedding/aisle-wedding-guest-access-api/) — Individual and group invitation codes for custom frontends. Access grants name explicit guests and never change RSVP Parties. All operations require a…
+- [Aisle Guest content API](https://apis.io/apis/aisle-wedding/aisle-wedding-guest-content-api/) — Guestbook notes, song requests, and predictions.
+- [Aisle Guests API](https://apis.io/apis/aisle-wedding/aisle-wedding-guests-api/) — Manage the wedding guest list and room assignments.
+- [Aisle Media API](https://apis.io/apis/aisle-wedding/aisle-wedding-media-api/) — Wedding-owned uploads, gallery photos, and the site cover.
+- [Aisle Meta API](https://apis.io/apis/aisle-wedding/aisle-wedding-meta-api/) — Service discovery and connectivity checks.
+- [Aisle Parties API](https://apis.io/apis/aisle-wedding/aisle-wedding-parties-api/) — Named households whose members reply together. Codes and guest sessions are managed by your application.
+- [Aisle Payments API](https://apis.io/apis/aisle-wedding/aisle-wedding-payments-api/) — Create guest checkouts and read the wedding-scoped payment ledger.
+- [Aisle Payouts API](https://apis.io/apis/aisle-wedding/aisle-wedding-payouts-api/) — Connect and inspect the couple payout account.
+- [Aisle Recommendations API](https://apis.io/apis/aisle-wedding/aisle-wedding-recommendations-api/) — Recommendations and frequently asked questions.
+- [Aisle Registry API](https://apis.io/apis/aisle-wedding/aisle-wedding-registry-api/) — Registry items and settled contribution ledger views.
+- [Aisle RSVP API](https://apis.io/apis/aisle-wedding/aisle-wedding-rsvp-api/) — Read and record guest replies and event invitations.
+- [Aisle Site API](https://apis.io/apis/aisle-wedding/aisle-wedding-site-api/) — Guest-site content and publication.
+- [Aisle Statistics API](https://apis.io/apis/aisle-wedding/aisle-wedding-statistics-api/) — Canonical wedding counts and settled money totals.
+- [Aisle Stays API](https://apis.io/apis/aisle-wedding/aisle-wedding-stays-api/) — Properties, rooms, rates, payment schedules, and stay dates.
+- [Aisle Travel API](https://apis.io/apis/aisle-wedding/aisle-wedding-travel-api/) — Airports and their transport options.
+- [Aisle Wedding API](https://apis.io/apis/aisle-wedding/aisle-wedding-wedding-api/) — Wedding identity and dates.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Aisle Wedding Agentic Access](https://apis.io/agentic-access/aisle-wedding/aisle-wedding-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [Event](https://apis.io/schemas/aisle-wedding/aisle-wedding-event/)
+- [Guest](https://apis.io/schemas/aisle-wedding/aisle-wedding-guest/)
+- [GuestCreate](https://apis.io/schemas/aisle-wedding/aisle-wedding-guest-create/)
+- [GuestImportRow](https://apis.io/schemas/aisle-wedding/aisle-wedding-guest-import-row/)
+- [GuestPatch](https://apis.io/schemas/aisle-wedding/aisle-wedding-guest-patch/)
+- [Wedding](https://apis.io/schemas/aisle-wedding/aisle-wedding-wedding/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Aisle Wedding Context](https://apis.io/jsonld/aisle-wedding/aisle-wedding-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Aisle API Rules](https://apis.io/rules/aisle-wedding/aisle-wedding-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Aisle Wedding Authentication](https://apis.io/security/aisle-wedding/aisle-wedding-authentication/)
+- [Aisle Wedding Domain Security](https://apis.io/security/aisle-wedding/aisle-wedding-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Aisle Wedding Plans Pricing](https://apis.io/plans/aisle-wedding/aisle-wedding-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://aisle.wedding/)
+- [Documentation](https://aisle.wedding/guides)
+- [API reference](https://api.aisle.wedding/docs)
+- [Pricing](https://aisle.wedding/pricing)
+- [Terms of service](https://aisle.wedding/terms)
+- [Privacy policy](https://aisle.wedding/privacy)
+
+## API Evangelist rating
+
+**Kin Score 52.7** — developing · rubric 0.25.0 · scored 2026-11-01
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 61.9 |
+| Contract governance | 79.1 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 35.0 |
+| Access clarity | 63.7 |
+
+**Agent readiness 55.3** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | verified |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | paginated |
+| Operation Distinctiveness | distinct |
+
+**Regulatory alignment 24.5** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/aisle-wedding/](https://apis.io/providers/aisle-wedding/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Aisle: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/aisle-wedding/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
